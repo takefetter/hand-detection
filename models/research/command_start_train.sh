@@ -7,4 +7,4 @@ gcloud ml-engine jobs submit training `whoami`_object_detection_`date +%s` \
     --config object_detection/samples/cloud/cloud.yml \
     -- \
     --train_dir=gs://takefetter_hand_detector/train \
-    --pipeline_config_path=gs://takefetter_hand_detector/data/ssd_inception_v2_coco.config
+    --pipeline_config_path=gs://takefetter_hand_detector/data/ssd_mobilenet_v1_hand.config
